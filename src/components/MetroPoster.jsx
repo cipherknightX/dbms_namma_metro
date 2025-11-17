@@ -9,7 +9,7 @@ export default function MetroPoster() {
         {/* Header */}
         <div className="text-center mb-8 border-b-4 border-indigo-600 pb-6">
           <h1 className="text-5xl font-bold text-indigo-900 mb-3">Namma Metro Database Management System</h1>
-          <p className="text-xl text-gray-600">Efficient Urban Rail Transit Management</p>
+          <p className="text-xl text-gray-600">AAT-Assessment Method for Theory: Poster Presentation </p>
         </div>
 
         {/* System Overview */}
