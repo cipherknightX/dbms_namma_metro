@@ -26,7 +26,7 @@ export default function MetroPoster() {
           </p>
         </div>
 
-        {/* ER Diagram */}
+{/* ER Diagram */}
 <div className="mb-8">
   <h2 className="text-2xl font-bold text-indigo-800 mb-4 flex items-center gap-2">
     <MapPin className="w-7 h-7" />
@@ -98,7 +98,8 @@ export default function MetroPoster() {
       <text x="330" y="606" textAnchor="middle" fill="#1E40AF" fontSize="13">balance</text>
       <line x1="295" y1="580" x2="250" y2="520" stroke="#1E40AF" strokeWidth="2"/>
       
-      <ellipse cx="30" cy="485" rx="65" ry="25" fill="#FEE2E2" stroke="#DC2626" strokeWidth="2" strokeDasharray="5,3"/>
+      {/* FK solid red */}
+      <ellipse cx="30" cy="485" rx="65" ry="25" fill="#FEE2E2" stroke="#DC2626" strokeWidth="2"/>
       <text x="30" y="485" textAnchor="middle" fill="#DC2626" fontSize="12">passenger_id</text>
       <text x="30" y="497" textAnchor="middle" fill="#DC2626" fontSize="11" fontStyle="italic">(FK)</text>
       <line x1="90" y1="485" x2="100" y2="485" stroke="#DC2626" strokeWidth="2"/>
@@ -123,7 +124,8 @@ export default function MetroPoster() {
       <text x="890" y="141" textAnchor="middle" fill="#1E40AF" fontSize="13">location</text>
       <line x1="860" y1="135" x2="830" y2="135" stroke="#1E40AF" strokeWidth="2"/>
       
-      <ellipse cx="540" cy="135" rx="50" ry="25" fill="#FEE2E2" stroke="#DC2626" strokeWidth="2" strokeDasharray="5,3"/>
+      {/* FK solid red */}
+      <ellipse cx="540" cy="135" rx="50" ry="25" fill="#FEE2E2" stroke="#DC2626" strokeWidth="2"/>
       <text x="540" y="137" textAnchor="middle" fill="#DC2626" fontSize="12">line_id</text>
       <text x="540" y="149" textAnchor="middle" fill="#DC2626" fontSize="11" fontStyle="italic">(FK)</text>
       <line x1="590" y1="135" x2="650" y2="135" stroke="#DC2626" strokeWidth="2"/>
@@ -168,17 +170,20 @@ export default function MetroPoster() {
       <text x="900" y="626" textAnchor="middle" fill="#1E40AF" fontSize="13">exit_time</text>
       <line x1="870" y1="600" x2="810" y2="520" stroke="#1E40AF" strokeWidth="2"/>
       
-      <ellipse cx="510" cy="620" rx="50" ry="25" fill="#FEE2E2" stroke="#DC2626" strokeWidth="2" strokeDasharray="5,3"/>
+      {/* FK solid red */}
+      <ellipse cx="510" cy="620" rx="50" ry="25" fill="#FEE2E2" stroke="#DC2626" strokeWidth="2"/>
       <text x="510" y="620" textAnchor="middle" fill="#DC2626" fontSize="12">card_id</text>
       <text x="510" y="632" textAnchor="middle" fill="#DC2626" fontSize="11" fontStyle="italic">(FK)</text>
       <line x1="555" y1="610" x2="650" y2="520" stroke="#DC2626" strokeWidth="2"/>
       
-      <ellipse cx="490" cy="365" rx="80" ry="25" fill="#FEE2E2" stroke="#DC2626" strokeWidth="2" strokeDasharray="5,3"/>
+      {/* FK solid red */}
+      <ellipse cx="490" cy="365" rx="80" ry="25" fill="#FEE2E2" stroke="#DC2626" strokeWidth="2"/>
       <text x="490" y="365" textAnchor="middle" fill="#DC2626" fontSize="12">entry_station_id</text>
       <text x="490" y="377" textAnchor="middle" fill="#DC2626" fontSize="11" fontStyle="italic">(FK)</text>
       <line x1="565" y1="375" x2="650" y2="450" stroke="#DC2626" strokeWidth="2"/>
       
-      <ellipse cx="980" cy="365" rx="75" ry="25" fill="#FEE2E2" stroke="#DC2626" strokeWidth="2" strokeDasharray="5,3"/>
+      {/* FK solid red */}
+      <ellipse cx="980" cy="365" rx="75" ry="25" fill="#FEE2E2" stroke="#DC2626" strokeWidth="2"/>
       <text x="980" y="365" textAnchor="middle" fill="#DC2626" fontSize="12">exit_station_id</text>
       <text x="980" y="377" textAnchor="middle" fill="#DC2626" fontSize="11" fontStyle="italic">(FK)</text>
       <line x1="910" y1="375" x2="820" y2="450" stroke="#DC2626" strokeWidth="2"/>
@@ -203,12 +208,14 @@ export default function MetroPoster() {
       <text x="1320" y="616" textAnchor="middle" fill="#1E40AF" fontSize="13">distance</text>
       <line x1="1285" y1="590" x2="1250" y2="520" stroke="#1E40AF" strokeWidth="2"/>
       
-      <ellipse cx="960" cy="550" rx="85" ry="25" fill="#FEE2E2" stroke="#DC2626" strokeWidth="2" strokeDasharray="5,3"/>
+      {/* FK solid red */}
+      <ellipse cx="960" cy="550" rx="85" ry="25" fill="#FEE2E2" stroke="#DC2626" strokeWidth="2"/>
       <text x="960" y="550" textAnchor="middle" fill="#DC2626" fontSize="12">from_station_id</text>
       <text x="960" y="562" textAnchor="middle" fill="#DC2626" fontSize="11" fontStyle="italic">(FK)</text>
       <line x1="1040" y1="540" x2="1100" y2="500" stroke="#DC2626" strokeWidth="2"/>
       
-      <ellipse cx="960" cy="310" rx="80" ry="25" fill="#FEE2E2" stroke="#DC2626" strokeWidth="2" strokeDasharray="5,3"/>
+      {/* FK solid red */}
+      <ellipse cx="960" cy="310" rx="80" ry="25" fill="#FEE2E2" stroke="#DC2626" strokeWidth="2"/>
       <text x="960" y="310" textAnchor="middle" fill="#DC2626" fontSize="12">to_station_id</text>
       <text x="960" y="322" textAnchor="middle" fill="#DC2626" fontSize="11" fontStyle="italic">(FK)</text>
       <line x1="1030" y1="325" x2="1100" y2="450" stroke="#DC2626" strokeWidth="2"/>
@@ -288,7 +295,7 @@ export default function MetroPoster() {
         <ellipse cx="150" cy="25" rx="35" ry="15" fill="#DBEAFE" stroke="#1E40AF" strokeWidth="2"/>
         <text x="195" y="30" fill="#333" fontSize="13">Attribute</text>
         
-        <ellipse cx="310" cy="25" rx="35" ry="15" fill="#FEE2E2" stroke="#DC2626" strokeWidth="2" strokeDasharray="5,3"/>
+        <ellipse cx="310" cy="25" rx="35" ry="15" fill="#FEE2E2" stroke="#DC2626" strokeWidth="2"/>
         <text x="355" y="30" fill="#333" fontSize="13">Foreign Key</text>
         
         <polygon points="460,10 480,25 460,40 440,25" fill="#FEF3C7" stroke="#D97706" strokeWidth="2"/>
@@ -301,6 +308,7 @@ export default function MetroPoster() {
     </svg>
   </div>
 </div>
+
 
         {/* Cardinality Ratios */}
         <div className="mb-8">
